@@ -27,9 +27,9 @@ time.sleep (3)
 # Passo 2 fazer login
 
 pyautogui.click (740, 509) # clicar no campo de email
-pyautogui.write ("thay@gmail.com")
+pyautogui.write ("seu_email@exemplo.com")
 pyautogui.press ("tab") # passar para o proximo campo
-pyautogui.write ("12345678") 
+pyautogui.write ("sua_senha") 
 time.sleep (1)
 pyautogui.click (x=947, y=709)# clicar no botao entrar
 pyautogui.click (x=947, y=709)# clicar no botao entrar  
